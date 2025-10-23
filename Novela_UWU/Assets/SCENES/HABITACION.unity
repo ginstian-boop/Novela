@@ -264,8 +264,6 @@ GameObject:
   - component: {fileID: 540795269}
   - component: {fileID: 540795270}
   - component: {fileID: 540795271}
-  - component: {fileID: 540795277}
-  - component: {fileID: 540795276}
   - component: {fileID: 540795278}
   - component: {fileID: 540795279}
   m_Layer: 0
@@ -332,8 +330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -26
-    y: 96
+    x: -24.911491
+    y: 96.8
     width: 196.3
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -364,21 +362,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 661.35, y: 72.5}
+  scrollPos: {x: 862.3972, y: 119.11124}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.6100004
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 540795265}
-  selectedCommands:
-  - {fileID: 540795270}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -507,58 +503,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &540795276
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540795262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 534
-    y: 109
-    width: 115.76
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 12
-  blockName: New Block1
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
---- !u!114 &540795277
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540795262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 299
-    y: 154
-    width: 110.19
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 11
-  blockName: New Block
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
 --- !u!114 &540795278
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -628,7 +572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Narrador
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -705,7 +649,7 @@ GameObject:
   - component: {fileID: 1157979945}
   - component: {fileID: 1157979944}
   m_Layer: 0
-  m_Name: t/n
+  m_Name: T/n
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -723,8 +667,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: T/n
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameText: t/n
+  nameColor: {r: 0.16886474, g: 0.7433963, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
