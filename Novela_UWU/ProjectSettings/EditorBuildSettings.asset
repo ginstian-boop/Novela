@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/SCENES/HABITACION.unity
+    guid: 265f4526de8a27747b47ca1add2f3d48
+  - enabled: 1
     path: Assets/SCENES/UWU.unity
     guid: 0074e858b06550d41bd6026fac0b8cc7
   - enabled: 1
     path: Assets/SCENES/RECORRIDO.unity
     guid: e42fb3e07ad27794bafd8a2bd9312d57
+  - enabled: 1
+    path: Assets/SCENES/COMEDOR.unity
+    guid: e8ffa596e7c6bad4f85072bd66704bbc
   - enabled: 1
     path: Assets/SCENES/Easteregg.unity
     guid: a6199747be01a0b458ef309fbb5e06fc

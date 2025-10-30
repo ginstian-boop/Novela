@@ -24,7 +24,7 @@ public class EASTEREGG : MonoBehaviour
 
                 if (inputActual == codigoSecreto)
                 {
-                    SceneManager.LoadScene(2);
+                    SceneManager.LoadScene("Easteregg");
                     inputActual = "";
                 }
             }
