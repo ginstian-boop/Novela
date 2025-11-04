@@ -1110,7 +1110,6 @@ GameObject:
   - component: {fileID: 769843310}
   - component: {fileID: 769843309}
   - component: {fileID: 769843314}
-  - component: {fileID: 769843313}
   - component: {fileID: 769843315}
   m_Layer: 0
   m_Name: Flowchart
@@ -1195,7 +1194,6 @@ MonoBehaviour:
   - {fileID: 769843310}
   - {fileID: 769843309}
   - {fileID: 769843314}
-  - {fileID: 769843313}
   - {fileID: 769843315}
   suppressAllAutoSelections: 0
 --- !u!114 &769843297
@@ -1222,8 +1220,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 769843296}
+  selectedCommands:
+  - {fileID: 769843315}
   variables: []
   description: 
   stepPause: 0
@@ -1639,23 +1639,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &769843313
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769843292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bacd6d8da56644cbb2c9a43f96750c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 17
-  indentLevel: 0
-  spriteRenderers:
-  - {fileID: 309906290}
-  sprite: {fileID: 2063826154672905881, guid: 9c2eabc973642b64eabec01db45d28fc, type: 3}
 --- !u!114 &769843314
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1678,21 +1661,23 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &769843315
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769843292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 18
+  itemId: 17
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: e7fbb92bd1b213d48b5a6c4e86723455, type: 3}
-  volume: 1
-  waitUntilFinished: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: COMEDOR
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &803743775
 GameObject:
   m_ObjectHideFlags: 0
