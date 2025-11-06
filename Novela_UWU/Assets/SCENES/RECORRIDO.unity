@@ -1100,17 +1100,18 @@ GameObject:
   - component: {fileID: 769843299}
   - component: {fileID: 769843304}
   - component: {fileID: 769843303}
-  - component: {fileID: 769843302}
   - component: {fileID: 769843308}
   - component: {fileID: 769843307}
   - component: {fileID: 769843306}
-  - component: {fileID: 769843305}
-  - component: {fileID: 769843312}
-  - component: {fileID: 769843311}
-  - component: {fileID: 769843310}
-  - component: {fileID: 769843309}
   - component: {fileID: 769843314}
   - component: {fileID: 769843315}
+  - component: {fileID: 769843322}
+  - component: {fileID: 769843321}
+  - component: {fileID: 769843320}
+  - component: {fileID: 769843319}
+  - component: {fileID: 769843318}
+  - component: {fileID: 769843317}
+  - component: {fileID: 769843316}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1179,20 +1180,21 @@ MonoBehaviour:
   eventHandler: {fileID: 769843295}
   commandList:
   - {fileID: 769843294}
+  - {fileID: 769843299}
   - {fileID: 769843301}
   - {fileID: 769843304}
   - {fileID: 769843303}
-  - {fileID: 769843299}
-  - {fileID: 769843302}
+  - {fileID: 769843322}
   - {fileID: 769843300}
   - {fileID: 769843308}
   - {fileID: 769843307}
   - {fileID: 769843306}
-  - {fileID: 769843305}
-  - {fileID: 769843312}
-  - {fileID: 769843311}
-  - {fileID: 769843310}
-  - {fileID: 769843309}
+  - {fileID: 769843321}
+  - {fileID: 769843319}
+  - {fileID: 769843320}
+  - {fileID: 769843318}
+  - {fileID: 769843317}
+  - {fileID: 769843316}
   - {fileID: 769843314}
   - {fileID: 769843315}
   suppressAllAutoSelections: 0
@@ -1223,7 +1225,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 769843296}
   selectedCommands:
-  - {fileID: 769843315}
+  - {fileID: 769843316}
   variables: []
   description: 
   stepPause: 0
@@ -1326,37 +1328,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "Mei lleva a t/n a recorrer la UWU, en el camino Mei lo agarra de la
-    mano con mucha emoci\xF3n, saltando y hablando sin parar. "
+  storyText: "Mei lleva a t/n a recorrer la UWU, en el camino Mei te agarra de la
+    mano con mucha emoci\xF3n, saltando y hablando sin parar. Te incomoda un poco
+    pero no le das mucha importancia."
   description: 
   character: {fileID: 1967133335}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &769843302
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769843292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 7
-  indentLevel: 0
-  storyText: "Kenji-kun Hola, te presento a t/n es nuevo aqu\xED, viene de intercambio"
-  description: 
-  character: {fileID: 582822764}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1381,7 +1357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: "El \xFAnico amigo de Mei. "
+  storyText: Oyes a Mei llamar a un chico.
   description: 
   character: {fileID: 1967133335}
   portrait: {fileID: 0}
@@ -1421,34 +1397,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &769843305
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769843292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 0
-  storyText: "los chicos aqu\xED son siempre igual de aburridos, tu pareces m\xE1s
-    interesante, m\xE1s \xFAnico\u2026"
-  description: 
-  character: {fileID: 1152544686}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &769843306
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1463,7 +1411,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: "N-N-NO, NO LO QUER\xCDA DECIR DE ESA FORMA. Es solo que\u2026"
+  storyText: " Lo imagin\xE9, tienes esa cara de perdido que todo nuevo estudiante
+    tiene por aqu\xED."
   description: 
   character: {fileID: 1152544686}
   portrait: {fileID: 0}
@@ -1490,7 +1439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: que-
+  storyText: "Si\u2026 llegu\xE9 hace poco."
   description: 
   character: {fileID: 1750244942}
   portrait: {fileID: 0}
@@ -1517,118 +1466,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: "Si, se nota que no eres de aqu\xED"
+  storyText: "Tu eres el nuevo \xBFverdad?"
   description: 
   character: {fileID: 1152544686}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &769843309
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769843292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  storyText: "(Parece que Kenji-kun est\xE1 m\xE1s nervioso de lo normal\u2026)"
-  description: 
-  character: {fileID: 582822764}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &769843310
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769843292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  storyText: " S-S-S\xCD\u2026 quiero decir\u2026 si, estar\xEDa bien."
-  description: 
-  character: {fileID: 1152544686}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &769843311
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769843292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 13
-  indentLevel: 0
-  storyText: "Kenji-kun \xBFquieres comer con nosotros? As\xED conocemos mejor a
-    t/n"
-  description: 
-  character: {fileID: 582822764}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &769843312
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769843292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 0
-  storyText: "(pero si soy un estereotipo m\xE1s\u2026)"
-  description: 
-  character: {fileID: 1750244942}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1661,7 +1501,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &769843315
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1678,6 +1518,201 @@ MonoBehaviour:
     stringVal: COMEDOR
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &769843316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769843292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  storyText: "(\xBFDeber\xEDa preocuparme por esto? Kenji parece muy interesado\u2026)\r\n\r"
+  description: 
+  character: {fileID: 582822764}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &769843317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769843292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  storyText: "Est\xE1 bien, no tengo planes. Adem\xE1s no todos los d\xEDas llega
+    alguien nuevo, ser\xEDa una oportunidad desperdiciada no aprovechar el momento."
+  description: 
+  character: {fileID: 1152544686}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &769843318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769843292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  storyText: "Kenji-kun \xBFquieres comer con nosotros? As\xED conocemos mejor a
+    t/n\r\n"
+  description: 
+  character: {fileID: 582822764}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &769843319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769843292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  storyText: ' Supongo que es obvio
+
+'
+  description: 
+  character: {fileID: 1750244942}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &769843320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769843292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  storyText: No es algo malo, a veces es mejor no adaptarse del todo.
+  description: 
+  character: {fileID: 1152544686}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &769843321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769843292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  storyText: 'dudas de si es un cumplido o no
+
+'
+  description: 
+  character: {fileID: 1967133335}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &769843322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769843292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  storyText: "\xA1Kenji! \xA1Ven! \xA1Quiero presentarte a alguien!"
+  description: 
+  character: {fileID: 582822764}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &803743775
 GameObject:
   m_ObjectHideFlags: 0
